@@ -1,16 +1,16 @@
 
 .topbar-responsive {
-  background: #2c3840;
+  background: #2D2926;
   padding: 1rem 1.5rem;
 }
 
 .topbar-responsive .topbar-responsive-logo {
-  color: #fefefe;
+  color: #ffffff;
   vertical-align: middle;
 }
 
 .topbar-responsive .menu {
-  background: #2c3840;
+  background: #0000;
 }
 
 .topbar-responsive .menu li:last-of-type {
@@ -23,7 +23,7 @@
 }
 
 .topbar-responsive .menu a:hover {
-  color: #c6d1d8;
+  color: #0000;
 }
 
 @media screen and (max-width: 39.9375em) {

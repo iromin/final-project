@@ -35,7 +35,7 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/content.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/parallax.css">
+
 
 
 
@@ -82,47 +82,46 @@
 
 
 <!-- begin header -->
-<header class="portfolio-hero-header">
-  <img class="portfolio-hero-header-logo" src="https://placehold.it/200"/>
-  <h1 class="portfolio-hero-header-h1">My Portfolio</h1>
-  <ul class="portfolio-hero-header-description">
-    <li>Portfolio Example</li>
-    <li>Super Clean</li>
-    <li>Super Simple</li>
-  </ul>
-  <ul class="portfolio-hero-header-menu">
-    <li><a class="button primary" href="#">Link 1</a></li>
-    <li><a class="button primary" href="#">Link 2</a></li>
-    <li><a class="button primary" href="#">Link 3</a></li>
-  </ul>
-</header>
-
-
 <!-- end header -->
 
 
 <!-- begin content -->
-<!-- begin angularjs -->
-  <div ng-view></div>
-<!-- end angularjs -->
+<div class="fullscreen-image-slider">
+<div class="orbit" role="region" aria-label="FullScreen Pictures" data-orbit>
+  <ul class="orbit-container">
+    <button class="orbit-previous">
+      <span class="show-for-sr">Previous Slide</span>
+      <span class="nav fa fa-chevron-left fa-3x"></span>
+    </button>
+    <button class="orbit-next">
+      <span class="show-for-sr">Next Slide</span>
+      <span class="nav fa fa-chevron-right fa-3x"></span>
+    </button>
+    <li class="is-active orbit-slide">
+      <img class="orbit-image" src="https://i.imgur.com/16z9ObN.jpg" alt="Space">
+      <figcaption class="orbit-caption">
+        <h1>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit.</h1>
+      </figcaption>
+    </li>
+    <li class="orbit-slide">
+      <img class="orbit-image" src="https://i.imgur.com/JD4Caxa.jpg" alt="Space">
+      <figcaption class="orbit-caption">
+        <h1>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit.</h1>
+      </figcaption>
+    </li>
+    <li class="orbit-slide">
+      <img class="orbit-image" src="https://i.imgur.com/rsTQbNV.jpg" alt="Space">
+      <figcaption class="orbit-caption">
+        <h1>Lorem ipsum dolor sit amet, <br>consectetur adipisicing elit.</h1>
+      </figcaption>
+    </li>
+  </ul>
+</div>
+</div>
 <!-- end content -->
 
 
 <!-- begin footer -->
-<footer class="social-footer">
-  <div class="social-footer-left">
-    <a href="#"><img class="logo" src="https://placehold.it/150x30"></a>
-  </div>
-  <div class="social-footer-icons">
-    <ul class="menu simple">
-      <li><a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-      <li><a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
-      <li><a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-    </ul>
-  </div>
-</footer>
-
-
 <!-- end footer -->
 
 
